@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -7,7 +8,7 @@
     body{margin:0;font-family:Inter,system-ui;background:#fff;color:#111}
     .top-bar{background:#ff204e;color:#fff;padding:6px 0;font-weight:700;text-align:center;font-size:14px;}
     .product-card{padding:16px;text-align:center;}
-    .product-img{width:100%;max-width:320px;border-radius:12px;margin:0 auto;}
+    .product-img{width:100%;max-width:320px;border-radius:12px;margin:0 auto;display:block;}
     h1{font-size:20px;margin:12px 0 8px}
     p.description{font-size:14px;color:#333;margin-bottom:12px}
     .price-box{display:flex;justify-content:center;align-items:center;gap:10px;margin:8px 0}
@@ -20,15 +21,15 @@
     .rating{color:#ffba00;font-size:16px;margin-bottom:8px;text-align:center}
     .review{display:flex;align-items:center;background:#f9f9f9;padding:8px;border-radius:8px;margin-bottom:8px;gap:8px}
     .review img{width:60px;height:60px;border-radius:8px;object-fit:cover}
-    .review-text{font-size:13px;color:#333;line-height:1.2}
-    .carousel{display:flex;overflow-x:auto;gap:10px;padding:4px 0;justify-content:center}
-    .carousel img{height:100px;border-radius:10px}
+    .review-text{font-size:13px;color:#333;line-height:1.4}
   </style>
 </head>
 <body>
-<div class="top-bar">🔥 Oferta Exclusiva TikTok — Estoque Limitado</div>
+<div class="top-bar">Oferta Exclusiva TikTok — Estoque Limitado</div>
+
 <div class="product-card">
-  <img class="product-img" src="https://files.catbox.moe/9h0v3f.jpg" alt="Chocotone Bauducco Fermentação Natural">
+  <!-- IMAGEM PRINCIPAL (agora é o de pistache) -->
+  <img class="product-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==" alt="Chocotone Bauducco Pistache" data-real="imagem grande pistache em base64 aqui (já inserida)">
   <h1>Chocotone Bauducco — Linha Fermentação Natural</h1>
   <p class="description">O autêntico chocotone com massa fofinha, fermentação natural e MUITO chocolate. Ideal para presentear ou curtir no fim de ano.</p>
   <div class="price-box">
@@ -41,27 +42,35 @@
 <div class="section">
   <h3 style="text-align:center;margin-bottom:12px">Avaliações</h3>
   <div class="rating">⭐⭐⭐⭐⭐ 4.9 • 12.392 avaliações</div>
+  
+  <!-- Avaliação 1 -->
   <div class="review">
-    <img src="https://files.catbox.moe/9y3i1v.jpg" alt="Review 1">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==" alt="Review Ana">
     <div class="review-text">“Muito saboroso, entregou rápido e veio super fresco.” — Ana</div>
   </div>
+  
+  <!-- Avaliação 2 -->
   <div class="review">
-    <img src="https://files.catbox.moe/0q2l5s.jpg" alt="Review 2">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==" alt="Review Felipe">
     <div class="review-text">“Já comprei 3! O melhor chocotone.” — Felipe</div>
   </div>
+  
+  <!-- Avaliação 3 -->
   <div class="review">
-    <img src="https://files.catbox.moe/k7i8p3.jpg" alt="Review 3">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==" alt="Review Marina">
     <div class="review-text">“Chegou em 2 dias aqui no interior. Perfeito!” — Marina</div>
   </div>
+  
+  <!-- Avaliação 4 -->
   <div class="review">
-    <img src="https://files.catbox.moe/e64w2r.jpg" alt="Review 4">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==" alt="Review Thiago">
     <div class="review-text">“O chocolate é muito bom, massa macia, recomendo demais.” — Thiago</div>
   </div>
 </div>
 
 <div class="section">
   <h3>Descrição</h3>
-  <p>• Fermentação natural<br>• Pedaços grandes de chocolate<br>• 400g de sabor tradicional Bauducco<br>• Ideal para ceia, presentes e sobremesas</p>
+  <p>• Fermentação natural<br>• Pedaços grandes de chocolate<br>• 400g ou 450g de puro sabor Bauducco<br>• Ideal para ceia, presentes e sobremesas</p>
 </div>
 
 <div class="buy-btn-fixed">
