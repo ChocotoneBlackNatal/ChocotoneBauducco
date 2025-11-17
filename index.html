@@ -18,9 +18,9 @@
     .btn{width:100%;background:#ff204e;color:#fff;font-weight:900;padding:18px;border-radius:12px;text-align:center;font-size:19px;}
     .section{padding:16px;border-top:10px solid #f8f8f8}
     .rating{color:#ffb400;font-size:18px;margin-bottom:12px;text-align:center;font-weight:800}
-    .review{display:flex;align-items:center;background:#f9f9f9;padding:14px;border-radius:12px;margin-bottom:12px;gap:14px}
-    .review img{width:58px;height:58px;border-radius:50%;object-fit:cover;border:3px solid #fff;box-shadow:0 3px 10px rgba(0,0,0,0.2)}
-    .review-text{font-size:14.5px;color:#333;line-height:1.5}
+    .review{display:flex;align-items:flex-start;background:#f9f9f9;padding:14px;border-radius:12px;margin-bottom:12px;gap:14px}
+    .review-text{font-size:14.5px;color:#333;line-height:1.5; flex:1;}
+    .review::before {content: "⭐"; font-size: 20px; margin-right: 10px; flex-shrink: 0;}
   </style>
 </head>
 <body>
@@ -40,20 +40,28 @@
   <div class="rating">★★★★★ 4.9 • 12.392 avaliações</div>
  
   <div class="review">
-    <img src="https://media.istockphoto.com/id/1396898967/pt/foto/retrato-jovem-mulher-feliz-sorrindo-de-bra%C3%A7os-abertos-no-ar-na-praia-de-ipanema.jpg?s=612x612&w=0&k=20&c=9mP4r5i1oLhD5Z2q5z5z5z5z5z5z5z5z5z5z5z5z=" alt="Ana">
     <div class="review-text">“Chegou super rápido e fresquinho, amei!” — Ana</div>
   </div>
   <div class="review">
-    <img src="https://media.istockphoto.com/id/1452670565/pt/foto/jovem-empres%C3%A1rio-mesti%C3%A7o-feliz-de-p%C3%A9-com-os-bra%C3%A7os-cruzados-trabalhando-sozinho-em-um-escrit%C3%B3rio-no-trabalho.jpg?s=612x612&w=0&k=20&c=example" alt="Felipe">
     <div class="review-text">“Já comprei 4, melhor custo-benefício do ano.” — Felipe</div>
   </div>
   <div class="review">
-    <img src="https://media.istockphoto.com/id/1396898967/pt/foto/retrato-jovem-mulher-brasileira-na-praia-de-ipanema.jpg?s=612x612&w=0&k=20&c=example" alt="Marina">
     <div class="review-text">“Entrega em 48h aqui no interior, perfeito!” — Marina</div>
   </div>
   <div class="review">
-    <img src="https://media.istockphoto.com/id/1396898967/pt/foto/jovem-homem-feliz-sorrindo-em-parque-publico.jpg?s=612x612&w=0&k=20&c=example" alt="Thiago">
     <div class="review-text">“Massa fofinha e muito chocolate, recomendo!” — Thiago</div>
+  </div>
+  <div class="review">
+    <div class="review-text">“Melhor chocotone que já provei, derrete na boca!” — Carla</div>
+  </div>
+  <div class="review">
+    <div class="review-text">“Comprei pro Natal e todo mundo elogiou, vale cada centavo.” — João</div>
+  </div>
+  <div class="review">
+    <div class="review-text">“Embalagem intacta, fresquíssimo como na padaria.” — Sofia</div>
+  </div>
+  <div class="review">
+    <div class="review-text">“Ótimo pra presentear, chegou antes do prazo!” — Pedro</div>
   </div>
 </div>
 <div class="buy-btn-fixed">
